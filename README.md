@@ -17,7 +17,5 @@ use a 2's complement.
 It will be `1` on systems that use a 1's complement.
 And it will be `0` on systems that use sign-magnitude.
 
-Pair with `static_assert` for best results!
-
 `test.c` and `test.cpp` print the value of `S_INT_REP`
 to the terminal.

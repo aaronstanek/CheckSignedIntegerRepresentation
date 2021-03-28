@@ -10,8 +10,6 @@
     #error unknown_sign_encoding
 #endif
 
-#endif
-
 // we use the expression (-1) & 3 to
 // determine how signed integers are stored
 
@@ -37,3 +35,5 @@
 // the -1 will be 10...01 in memory
 // the last two bits will be 01
 // having the decimal value 1
+
+#endif
